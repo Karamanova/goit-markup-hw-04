@@ -220,7 +220,7 @@ color: var(--accent-color);
 }
 /*Коробочка "Чем мы занимаемся"*/
 .about-projects {
-    padding: 50px 0 94px 0;
+    padding: 0 0 94px 0;
 }
 /*Название "Чем мы занимаемся""*/
 .about-sections {
@@ -329,7 +329,7 @@ padding: 60px 0;
 .filters-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 34px;
 }
 /*Кнопки фильтра*/
 .filters-btn {
