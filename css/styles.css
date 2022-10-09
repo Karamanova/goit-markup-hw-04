@@ -105,10 +105,7 @@ color: var(--accent-color);
     margin-left: auto;
 }
 .contacts-link:not(:last-child) {
-    margin-right: 50px;
-}
-.details {
-
+    margin-right: 30px;
 }
 .icon-contact {
     margin-right: 10px;
@@ -123,6 +120,12 @@ color: var(--accent-color);
 }
 .current {
     color: var(--accent-color);
+}
+.mail {
+    display: flex;
+}
+.phone {
+    display: flex;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -382,6 +385,9 @@ background-color: var(--about-team-background-color);
 background-color: var(--first-background-color);
 padding: 60px 0;
 }
+.footer-content {
+    display: flex;
+}
 .footer-logo {
     font-family: Raleway;
     font-weight: 700;
@@ -397,6 +403,9 @@ padding: 60px 0;
     color: var(--primary-color);
 }
 /*Адрес в футере*/
+.footer-contacts-list {
+    display: block;
+}
 .contact-address {
     font-style: normal;
     margin-top: 20px;
