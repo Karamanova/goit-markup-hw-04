@@ -121,12 +121,6 @@ color: var(--accent-color);
 .current {
     color: var(--accent-color);
 }
-.mail {
-    display: flex;
-}
-.phone {
-    display: flex;
-}
 .contact-link:hover,
 .contact-link:focus {
     color: var(--accent-color);
@@ -387,6 +381,7 @@ padding: 60px 0;
 }
 .footer-content {
     display: flex;
+    align-items:baseline;
 }
 .footer-logo {
     font-family: Raleway;
@@ -437,7 +432,6 @@ padding: 60px 0;
 }
 .footer-social {
     margin-left: 70px;
-    margin-top: 12px;
 }
 .footer-social-title {
         font-size: 14px;
